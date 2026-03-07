@@ -1,0 +1,22 @@
+{
+  "name": "remote-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "shared-pkg": "file:../../pkgs/shared-pkg",
+    "not-shared-pkg": "file:../../pkgs/not-shared-pkg"
+  },
+  "devDependencies": {
+    "@module-federation/vite": "1.12.0",
+    "vite": "^7.3.1"
+  },
+  "overrides": {
+    "@module-federation/dts-plugin": "2.0.1"
+  }
+}

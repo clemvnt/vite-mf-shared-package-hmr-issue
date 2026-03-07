@@ -1,0 +1,7 @@
+{
+  "name": "shared-pkg",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "module": "index.js"
+}
