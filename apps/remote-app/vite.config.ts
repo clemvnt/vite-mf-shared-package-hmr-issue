@@ -13,7 +13,6 @@ export default defineConfig({
         "./values": "./src/values",
       },
       shared: { "shared-pkg": {} },
-      manifest: true,
       dts: false,
     }),
   ],

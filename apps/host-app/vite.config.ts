@@ -10,10 +10,13 @@ export default defineConfig({
       name: "host-app",
       filename: "remoteEntry.js",
       remotes: {
-        "remote-app": "http://localhost:5173/mf-manifest.json",
+        "remote-app": {
+          type: "module",
+          name: "remote-app",
+          entry: "http://localhost:5173/remoteEntry.js",
+        },
       },
       shared: { "shared-pkg": {} },
-      manifest: true,
       dts: false,
     }),
   ],

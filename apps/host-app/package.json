@@ -13,7 +13,7 @@
     "not-shared-pkg": "file:../../pkgs/not-shared-pkg"
   },
   "devDependencies": {
-    "@module-federation/vite": "1.12.0",
+    "@module-federation/vite": "^1.12.1",
     "vite": "^7.3.1"
   },
   "overrides": {
