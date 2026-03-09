@@ -3,7 +3,7 @@ import { value as sharedPkgValue } from "shared-pkg";
 import {
   sharedPkgValue as remoteSharedPkgValue,
   notSharedPkgValue as remoteNotSharedPkgValue,
-} from "Remote/values";
+} from "remote-app/values";
 
 document.querySelector("#app")!.innerHTML = `
   <div>
