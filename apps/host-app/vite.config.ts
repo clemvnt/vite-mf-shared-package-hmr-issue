@@ -17,6 +17,7 @@ export default defineConfig({
         },
       },
       shared: { "shared-pkg": {} },
+      watchShared: ["../../pkgs/shared-pkg/**/*"],
       dts: false,
     }),
   ],
