@@ -1,0 +1,7 @@
+{
+  "name": "cjs-pkg",
+  "private": true,
+  "type": "commonjs",
+  "version": "0.0.0",
+  "main": "index.js"
+}

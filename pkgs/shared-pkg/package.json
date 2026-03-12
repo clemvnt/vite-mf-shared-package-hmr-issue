@@ -3,5 +3,8 @@
   "private": true,
   "type": "module",
   "version": "0.0.0",
-  "module": "index.js"
+  "module": "index.js",
+  "dependencies": {
+    "cjs-pkg": "file:../cjs-pkg"
+  }
 }
